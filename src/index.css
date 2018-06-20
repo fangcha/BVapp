@@ -1,0 +1,81 @@
+body {
+  margin: 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: whitesmoke;
+  background-color: rgb(25, 25, 30)
+}
+
+  header {
+    background-color: rgb(14, 13, 24);
+    padding: 6px 6px;
+  }
+    .header {
+      display: grid;
+      grid-template-columns: 85% 15%;
+    }
+
+  button {
+    border-radius: 5px;
+    min-width: 70px;
+    background-color: rgb(79, 132, 202);
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    padding: 10px 6px;
+    margin: 6px 6px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 4fr 16fr 12fr;
+    grid-gap: 6px;
+  }
+
+  .active-user {
+    border: 1px solid red;
+    grid-row: 1/5;
+  }
+    .active-btn {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+  .input-bar {
+    padding: 6px 6px;
+    grid-row: 1;
+  }
+
+    .input-bar input {
+      caret-color: white;
+      color: white;
+      width: 100%;
+      padding: 6px 20px;
+      margin: 6px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid rgb(50, 60, 205);
+      background-color: rgb(25, 25, 30);
+    }
+
+  .user-detail {
+    border: 2px solid brown;
+    padding: 6px 12px;
+    grid-row: 2;
+  }
+
+  .action-list {
+    border: 2px solid rgb(50, 60, 205);
+    grid-row: 1/5;
+  }
+
+    .timer form, .timer button {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  /* .sheet {
+    grid-column: 3;
+    grid-row: 5;
+  } */
