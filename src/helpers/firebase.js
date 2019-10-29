@@ -21,3 +21,7 @@ export function calculate(snapshot) {
   }).reduce((a, eachItemCost) => a + eachItemCost, 0)
   return totalCost
 };
+
+export function test() {
+  console.log('Test')
+};
